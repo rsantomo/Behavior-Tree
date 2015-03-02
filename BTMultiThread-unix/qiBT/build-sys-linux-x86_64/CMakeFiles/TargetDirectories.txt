@@ -1,0 +1,3 @@
+/home/michele/BTMultiThread-unix/qiBT/build-sys-linux-x86_64/CMakeFiles/BTMultiThread.dir
+/home/michele/BTMultiThread-unix/qiBT/build-sys-linux-x86_64/CMakeFiles/gtkm.dir
+/home/michele/BTMultiThread-unix/qiBT/build-sys-linux-x86_64/CMakeFiles/mylib.dir

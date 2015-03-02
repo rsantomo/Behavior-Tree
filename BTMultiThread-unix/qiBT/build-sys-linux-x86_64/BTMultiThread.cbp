@@ -1,0 +1,623 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="BTMultiThread" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\naoqi\;CMake Files\..\naoqi\naoqi-sdk-1.14.5-linux64\;CMake Files\..\naoqi\naoqi-sdk-1.14.5-linux64\share\;CMake Files\..\naoqi\naoqi-sdk-1.14.5-linux64\share\cmake\;CMake Files\..\naoqi\naoqi-sdk-1.14.5-linux64\share\cmake\qibuild\;CMake Files\..\naoqi\naoqi-sdk-1.14.5-linux64\share\cmake\qibuild\internal\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/michele/BTMultiThread-unix/qiBT/build-sys-linux-x86_64" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/michele/BTMultiThread-unix/qiBT/build-sys-linux-x86_64/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/michele/BTMultiThread-unix/qiBT/build-sys-linux-x86_64/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/michele/BTMultiThread-unix/qiBT/build-sys-linux-x86_64/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/michele/BTMultiThread-unix/qiBT/build-sys-linux-x86_64/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="BTMultiThread">
+         <Option output="/home/michele/BTMultiThread-unix/qiBT/build-sys-linux-x86_64/sdk/bin/BTMultiThread" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/michele/BTMultiThread-unix/qiBT/build-sys-linux-x86_64" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/michele/BTMultiThread-unix/./include" />
+            <Add directory="/home/michele/BTMultiThread-unix/GTKMM_INCLUDE_DIRS" />
+            <Add directory="/home/michele/naoqi/naoqi-sdk-1.14.5-linux64/include" />
+            <Add directory="/home/michele/naoqi/naoqi-sdk-1.14.5-linux64/include/alsoap" />
+            <Add directory="/home/michele/naoqi/naoqi-sdk-1.14.5-linux64/include/soap" />
+            <Add directory="/home/michele/naoqi/naoqi-sdk-1.14.5-linux64/lib" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/atk-1.0" />
+            <Add directory="/usr/include/atkmm-1.6" />
+            <Add directory="/usr/include/c++/4.6" />
+            <Add directory="/usr/include/c++/4.6/backward" />
+            <Add directory="/usr/include/c++/4.6/x86_64-linux-gnu/." />
+            <Add directory="/usr/include/cairo" />
+            <Add directory="/usr/include/cairomm-1.0" />
+            <Add directory="/usr/include/freetype2" />
+            <Add directory="/usr/include/gdk-pixbuf-2.0" />
+            <Add directory="/usr/include/gdkmm-2.4" />
+            <Add directory="/usr/include/gio-unix-2.0" />
+            <Add directory="/usr/include/giomm-2.4" />
+            <Add directory="/usr/include/glib-2.0" />
+            <Add directory="/usr/include/glibmm-2.4" />
+            <Add directory="/usr/include/gtk-2.0" />
+            <Add directory="/usr/include/gtk-unix-print-2.0" />
+            <Add directory="/usr/include/gtkmm-2.4" />
+            <Add directory="/usr/include/libpng12" />
+            <Add directory="/usr/include/pango-1.0" />
+            <Add directory="/usr/include/pangomm-1.4" />
+            <Add directory="/usr/include/pixman-1" />
+            <Add directory="/usr/include/sigc++-2.0" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.6/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.6/include-fixed" />
+            <Add directory="/usr/lib/x86_64-linux-gnu/cairomm-1.0/include" />
+            <Add directory="/usr/lib/x86_64-linux-gnu/gdkmm-2.4/include" />
+            <Add directory="/usr/lib/x86_64-linux-gnu/giomm-2.4/include" />
+            <Add directory="/usr/lib/x86_64-linux-gnu/glib-2.0/include" />
+            <Add directory="/usr/lib/x86_64-linux-gnu/glibmm-2.4/include" />
+            <Add directory="/usr/lib/x86_64-linux-gnu/gtk-2.0/include" />
+            <Add directory="/usr/lib/x86_64-linux-gnu/gtkmm-2.4/include" />
+            <Add directory="/usr/lib/x86_64-linux-gnu/pangomm-1.4/include" />
+            <Add directory="/usr/lib/x86_64-linux-gnu/sigc++-2.0/include" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/michele/BTMultiThread-unix/qiBT/build-sys-linux-x86_64/Makefile&quot;  VERBOSE=1 BTMultiThread" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/michele/BTMultiThread-unix/qiBT/build-sys-linux-x86_64/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/michele/BTMultiThread-unix/qiBT/build-sys-linux-x86_64/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/michele/BTMultiThread-unix/qiBT/build-sys-linux-x86_64/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="BTMultiThread/fast">
+         <Option output="/home/michele/BTMultiThread-unix/qiBT/build-sys-linux-x86_64/sdk/bin/BTMultiThread" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/michele/BTMultiThread-unix/qiBT/build-sys-linux-x86_64" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/michele/BTMultiThread-unix/./include" />
+            <Add directory="/home/michele/BTMultiThread-unix/GTKMM_INCLUDE_DIRS" />
+            <Add directory="/home/michele/naoqi/naoqi-sdk-1.14.5-linux64/include" />
+            <Add directory="/home/michele/naoqi/naoqi-sdk-1.14.5-linux64/include/alsoap" />
+            <Add directory="/home/michele/naoqi/naoqi-sdk-1.14.5-linux64/include/soap" />
+            <Add directory="/home/michele/naoqi/naoqi-sdk-1.14.5-linux64/lib" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/atk-1.0" />
+            <Add directory="/usr/include/atkmm-1.6" />
+            <Add directory="/usr/include/c++/4.6" />
+            <Add directory="/usr/include/c++/4.6/backward" />
+            <Add directory="/usr/include/c++/4.6/x86_64-linux-gnu/." />
+            <Add directory="/usr/include/cairo" />
+            <Add directory="/usr/include/cairomm-1.0" />
+            <Add directory="/usr/include/freetype2" />
+            <Add directory="/usr/include/gdk-pixbuf-2.0" />
+            <Add directory="/usr/include/gdkmm-2.4" />
+            <Add directory="/usr/include/gio-unix-2.0" />
+            <Add directory="/usr/include/giomm-2.4" />
+            <Add directory="/usr/include/glib-2.0" />
+            <Add directory="/usr/include/glibmm-2.4" />
+            <Add directory="/usr/include/gtk-2.0" />
+            <Add directory="/usr/include/gtk-unix-print-2.0" />
+            <Add directory="/usr/include/gtkmm-2.4" />
+            <Add directory="/usr/include/libpng12" />
+            <Add directory="/usr/include/pango-1.0" />
+            <Add directory="/usr/include/pangomm-1.4" />
+            <Add directory="/usr/include/pixman-1" />
+            <Add directory="/usr/include/sigc++-2.0" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.6/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.6/include-fixed" />
+            <Add directory="/usr/lib/x86_64-linux-gnu/cairomm-1.0/include" />
+            <Add directory="/usr/lib/x86_64-linux-gnu/gdkmm-2.4/include" />
+            <Add directory="/usr/lib/x86_64-linux-gnu/giomm-2.4/include" />
+            <Add directory="/usr/lib/x86_64-linux-gnu/glib-2.0/include" />
+            <Add directory="/usr/lib/x86_64-linux-gnu/glibmm-2.4/include" />
+            <Add directory="/usr/lib/x86_64-linux-gnu/gtk-2.0/include" />
+            <Add directory="/usr/lib/x86_64-linux-gnu/gtkmm-2.4/include" />
+            <Add directory="/usr/lib/x86_64-linux-gnu/pangomm-1.4/include" />
+            <Add directory="/usr/lib/x86_64-linux-gnu/sigc++-2.0/include" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/michele/BTMultiThread-unix/qiBT/build-sys-linux-x86_64/Makefile&quot;  VERBOSE=1 BTMultiThread/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/michele/BTMultiThread-unix/qiBT/build-sys-linux-x86_64/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/michele/BTMultiThread-unix/qiBT/build-sys-linux-x86_64/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/michele/BTMultiThread-unix/qiBT/build-sys-linux-x86_64/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="gtkm">
+         <Option output="/home/michele/BTMultiThread-unix/qiBT/build-sys-linux-x86_64/libgtkm.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/michele/BTMultiThread-unix/qiBT/build-sys-linux-x86_64" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/michele/BTMultiThread-unix/./include" />
+            <Add directory="/home/michele/BTMultiThread-unix/GTKMM_INCLUDE_DIRS" />
+            <Add directory="/home/michele/naoqi/naoqi-sdk-1.14.5-linux64/include" />
+            <Add directory="/home/michele/naoqi/naoqi-sdk-1.14.5-linux64/include/alsoap" />
+            <Add directory="/home/michele/naoqi/naoqi-sdk-1.14.5-linux64/include/soap" />
+            <Add directory="/home/michele/naoqi/naoqi-sdk-1.14.5-linux64/lib" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/atk-1.0" />
+            <Add directory="/usr/include/atkmm-1.6" />
+            <Add directory="/usr/include/c++/4.6" />
+            <Add directory="/usr/include/c++/4.6/backward" />
+            <Add directory="/usr/include/c++/4.6/x86_64-linux-gnu/." />
+            <Add directory="/usr/include/cairo" />
+            <Add directory="/usr/include/cairomm-1.0" />
+            <Add directory="/usr/include/freetype2" />
+            <Add directory="/usr/include/gdk-pixbuf-2.0" />
+            <Add directory="/usr/include/gdkmm-2.4" />
+            <Add directory="/usr/include/gio-unix-2.0" />
+            <Add directory="/usr/include/giomm-2.4" />
+            <Add directory="/usr/include/glib-2.0" />
+            <Add directory="/usr/include/glibmm-2.4" />
+            <Add directory="/usr/include/gtk-2.0" />
+            <Add directory="/usr/include/gtk-unix-print-2.0" />
+            <Add directory="/usr/include/gtkmm-2.4" />
+            <Add directory="/usr/include/libpng12" />
+            <Add directory="/usr/include/pango-1.0" />
+            <Add directory="/usr/include/pangomm-1.4" />
+            <Add directory="/usr/include/pixman-1" />
+            <Add directory="/usr/include/sigc++-2.0" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.6/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.6/include-fixed" />
+            <Add directory="/usr/lib/x86_64-linux-gnu/cairomm-1.0/include" />
+            <Add directory="/usr/lib/x86_64-linux-gnu/gdkmm-2.4/include" />
+            <Add directory="/usr/lib/x86_64-linux-gnu/giomm-2.4/include" />
+            <Add directory="/usr/lib/x86_64-linux-gnu/glib-2.0/include" />
+            <Add directory="/usr/lib/x86_64-linux-gnu/glibmm-2.4/include" />
+            <Add directory="/usr/lib/x86_64-linux-gnu/gtk-2.0/include" />
+            <Add directory="/usr/lib/x86_64-linux-gnu/gtkmm-2.4/include" />
+            <Add directory="/usr/lib/x86_64-linux-gnu/pangomm-1.4/include" />
+            <Add directory="/usr/lib/x86_64-linux-gnu/sigc++-2.0/include" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/michele/BTMultiThread-unix/qiBT/build-sys-linux-x86_64/Makefile&quot;  VERBOSE=1 gtkm" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/michele/BTMultiThread-unix/qiBT/build-sys-linux-x86_64/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/michele/BTMultiThread-unix/qiBT/build-sys-linux-x86_64/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/michele/BTMultiThread-unix/qiBT/build-sys-linux-x86_64/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="gtkm/fast">
+         <Option output="/home/michele/BTMultiThread-unix/qiBT/build-sys-linux-x86_64/libgtkm.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/michele/BTMultiThread-unix/qiBT/build-sys-linux-x86_64" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/michele/BTMultiThread-unix/./include" />
+            <Add directory="/home/michele/BTMultiThread-unix/GTKMM_INCLUDE_DIRS" />
+            <Add directory="/home/michele/naoqi/naoqi-sdk-1.14.5-linux64/include" />
+            <Add directory="/home/michele/naoqi/naoqi-sdk-1.14.5-linux64/include/alsoap" />
+            <Add directory="/home/michele/naoqi/naoqi-sdk-1.14.5-linux64/include/soap" />
+            <Add directory="/home/michele/naoqi/naoqi-sdk-1.14.5-linux64/lib" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/atk-1.0" />
+            <Add directory="/usr/include/atkmm-1.6" />
+            <Add directory="/usr/include/c++/4.6" />
+            <Add directory="/usr/include/c++/4.6/backward" />
+            <Add directory="/usr/include/c++/4.6/x86_64-linux-gnu/." />
+            <Add directory="/usr/include/cairo" />
+            <Add directory="/usr/include/cairomm-1.0" />
+            <Add directory="/usr/include/freetype2" />
+            <Add directory="/usr/include/gdk-pixbuf-2.0" />
+            <Add directory="/usr/include/gdkmm-2.4" />
+            <Add directory="/usr/include/gio-unix-2.0" />
+            <Add directory="/usr/include/giomm-2.4" />
+            <Add directory="/usr/include/glib-2.0" />
+            <Add directory="/usr/include/glibmm-2.4" />
+            <Add directory="/usr/include/gtk-2.0" />
+            <Add directory="/usr/include/gtk-unix-print-2.0" />
+            <Add directory="/usr/include/gtkmm-2.4" />
+            <Add directory="/usr/include/libpng12" />
+            <Add directory="/usr/include/pango-1.0" />
+            <Add directory="/usr/include/pangomm-1.4" />
+            <Add directory="/usr/include/pixman-1" />
+            <Add directory="/usr/include/sigc++-2.0" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.6/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.6/include-fixed" />
+            <Add directory="/usr/lib/x86_64-linux-gnu/cairomm-1.0/include" />
+            <Add directory="/usr/lib/x86_64-linux-gnu/gdkmm-2.4/include" />
+            <Add directory="/usr/lib/x86_64-linux-gnu/giomm-2.4/include" />
+            <Add directory="/usr/lib/x86_64-linux-gnu/glib-2.0/include" />
+            <Add directory="/usr/lib/x86_64-linux-gnu/glibmm-2.4/include" />
+            <Add directory="/usr/lib/x86_64-linux-gnu/gtk-2.0/include" />
+            <Add directory="/usr/lib/x86_64-linux-gnu/gtkmm-2.4/include" />
+            <Add directory="/usr/lib/x86_64-linux-gnu/pangomm-1.4/include" />
+            <Add directory="/usr/lib/x86_64-linux-gnu/sigc++-2.0/include" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/michele/BTMultiThread-unix/qiBT/build-sys-linux-x86_64/Makefile&quot;  VERBOSE=1 gtkm/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/michele/BTMultiThread-unix/qiBT/build-sys-linux-x86_64/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/michele/BTMultiThread-unix/qiBT/build-sys-linux-x86_64/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/michele/BTMultiThread-unix/qiBT/build-sys-linux-x86_64/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install">
+         <Option working_dir="/home/michele/BTMultiThread-unix/qiBT/build-sys-linux-x86_64" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/michele/BTMultiThread-unix/qiBT/build-sys-linux-x86_64/Makefile&quot;  VERBOSE=1 install" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/michele/BTMultiThread-unix/qiBT/build-sys-linux-x86_64/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/michele/BTMultiThread-unix/qiBT/build-sys-linux-x86_64/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/michele/BTMultiThread-unix/qiBT/build-sys-linux-x86_64/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install/local">
+         <Option working_dir="/home/michele/BTMultiThread-unix/qiBT/build-sys-linux-x86_64" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/michele/BTMultiThread-unix/qiBT/build-sys-linux-x86_64/Makefile&quot;  VERBOSE=1 install/local" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/michele/BTMultiThread-unix/qiBT/build-sys-linux-x86_64/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/michele/BTMultiThread-unix/qiBT/build-sys-linux-x86_64/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/michele/BTMultiThread-unix/qiBT/build-sys-linux-x86_64/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install/strip">
+         <Option working_dir="/home/michele/BTMultiThread-unix/qiBT/build-sys-linux-x86_64" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/michele/BTMultiThread-unix/qiBT/build-sys-linux-x86_64/Makefile&quot;  VERBOSE=1 install/strip" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/michele/BTMultiThread-unix/qiBT/build-sys-linux-x86_64/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/michele/BTMultiThread-unix/qiBT/build-sys-linux-x86_64/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/michele/BTMultiThread-unix/qiBT/build-sys-linux-x86_64/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="list_install_components">
+         <Option working_dir="/home/michele/BTMultiThread-unix/qiBT/build-sys-linux-x86_64" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/michele/BTMultiThread-unix/qiBT/build-sys-linux-x86_64/Makefile&quot;  VERBOSE=1 list_install_components" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/michele/BTMultiThread-unix/qiBT/build-sys-linux-x86_64/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/michele/BTMultiThread-unix/qiBT/build-sys-linux-x86_64/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/michele/BTMultiThread-unix/qiBT/build-sys-linux-x86_64/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="mylib">
+         <Option output="/home/michele/BTMultiThread-unix/qiBT/build-sys-linux-x86_64/libmylib.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/michele/BTMultiThread-unix/qiBT/build-sys-linux-x86_64" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/michele/BTMultiThread-unix/./include" />
+            <Add directory="/home/michele/BTMultiThread-unix/GTKMM_INCLUDE_DIRS" />
+            <Add directory="/home/michele/naoqi/naoqi-sdk-1.14.5-linux64/include" />
+            <Add directory="/home/michele/naoqi/naoqi-sdk-1.14.5-linux64/include/alsoap" />
+            <Add directory="/home/michele/naoqi/naoqi-sdk-1.14.5-linux64/include/soap" />
+            <Add directory="/home/michele/naoqi/naoqi-sdk-1.14.5-linux64/lib" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/atk-1.0" />
+            <Add directory="/usr/include/atkmm-1.6" />
+            <Add directory="/usr/include/c++/4.6" />
+            <Add directory="/usr/include/c++/4.6/backward" />
+            <Add directory="/usr/include/c++/4.6/x86_64-linux-gnu/." />
+            <Add directory="/usr/include/cairo" />
+            <Add directory="/usr/include/cairomm-1.0" />
+            <Add directory="/usr/include/freetype2" />
+            <Add directory="/usr/include/gdk-pixbuf-2.0" />
+            <Add directory="/usr/include/gdkmm-2.4" />
+            <Add directory="/usr/include/gio-unix-2.0" />
+            <Add directory="/usr/include/giomm-2.4" />
+            <Add directory="/usr/include/glib-2.0" />
+            <Add directory="/usr/include/glibmm-2.4" />
+            <Add directory="/usr/include/gtk-2.0" />
+            <Add directory="/usr/include/gtk-unix-print-2.0" />
+            <Add directory="/usr/include/gtkmm-2.4" />
+            <Add directory="/usr/include/libpng12" />
+            <Add directory="/usr/include/pango-1.0" />
+            <Add directory="/usr/include/pangomm-1.4" />
+            <Add directory="/usr/include/pixman-1" />
+            <Add directory="/usr/include/sigc++-2.0" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.6/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.6/include-fixed" />
+            <Add directory="/usr/lib/x86_64-linux-gnu/cairomm-1.0/include" />
+            <Add directory="/usr/lib/x86_64-linux-gnu/gdkmm-2.4/include" />
+            <Add directory="/usr/lib/x86_64-linux-gnu/giomm-2.4/include" />
+            <Add directory="/usr/lib/x86_64-linux-gnu/glib-2.0/include" />
+            <Add directory="/usr/lib/x86_64-linux-gnu/glibmm-2.4/include" />
+            <Add directory="/usr/lib/x86_64-linux-gnu/gtk-2.0/include" />
+            <Add directory="/usr/lib/x86_64-linux-gnu/gtkmm-2.4/include" />
+            <Add directory="/usr/lib/x86_64-linux-gnu/pangomm-1.4/include" />
+            <Add directory="/usr/lib/x86_64-linux-gnu/sigc++-2.0/include" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/michele/BTMultiThread-unix/qiBT/build-sys-linux-x86_64/Makefile&quot;  VERBOSE=1 mylib" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/michele/BTMultiThread-unix/qiBT/build-sys-linux-x86_64/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/michele/BTMultiThread-unix/qiBT/build-sys-linux-x86_64/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/michele/BTMultiThread-unix/qiBT/build-sys-linux-x86_64/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="mylib/fast">
+         <Option output="/home/michele/BTMultiThread-unix/qiBT/build-sys-linux-x86_64/libmylib.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/michele/BTMultiThread-unix/qiBT/build-sys-linux-x86_64" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/michele/BTMultiThread-unix/./include" />
+            <Add directory="/home/michele/BTMultiThread-unix/GTKMM_INCLUDE_DIRS" />
+            <Add directory="/home/michele/naoqi/naoqi-sdk-1.14.5-linux64/include" />
+            <Add directory="/home/michele/naoqi/naoqi-sdk-1.14.5-linux64/include/alsoap" />
+            <Add directory="/home/michele/naoqi/naoqi-sdk-1.14.5-linux64/include/soap" />
+            <Add directory="/home/michele/naoqi/naoqi-sdk-1.14.5-linux64/lib" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/atk-1.0" />
+            <Add directory="/usr/include/atkmm-1.6" />
+            <Add directory="/usr/include/c++/4.6" />
+            <Add directory="/usr/include/c++/4.6/backward" />
+            <Add directory="/usr/include/c++/4.6/x86_64-linux-gnu/." />
+            <Add directory="/usr/include/cairo" />
+            <Add directory="/usr/include/cairomm-1.0" />
+            <Add directory="/usr/include/freetype2" />
+            <Add directory="/usr/include/gdk-pixbuf-2.0" />
+            <Add directory="/usr/include/gdkmm-2.4" />
+            <Add directory="/usr/include/gio-unix-2.0" />
+            <Add directory="/usr/include/giomm-2.4" />
+            <Add directory="/usr/include/glib-2.0" />
+            <Add directory="/usr/include/glibmm-2.4" />
+            <Add directory="/usr/include/gtk-2.0" />
+            <Add directory="/usr/include/gtk-unix-print-2.0" />
+            <Add directory="/usr/include/gtkmm-2.4" />
+            <Add directory="/usr/include/libpng12" />
+            <Add directory="/usr/include/pango-1.0" />
+            <Add directory="/usr/include/pangomm-1.4" />
+            <Add directory="/usr/include/pixman-1" />
+            <Add directory="/usr/include/sigc++-2.0" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.6/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.6/include-fixed" />
+            <Add directory="/usr/lib/x86_64-linux-gnu/cairomm-1.0/include" />
+            <Add directory="/usr/lib/x86_64-linux-gnu/gdkmm-2.4/include" />
+            <Add directory="/usr/lib/x86_64-linux-gnu/giomm-2.4/include" />
+            <Add directory="/usr/lib/x86_64-linux-gnu/glib-2.0/include" />
+            <Add directory="/usr/lib/x86_64-linux-gnu/glibmm-2.4/include" />
+            <Add directory="/usr/lib/x86_64-linux-gnu/gtk-2.0/include" />
+            <Add directory="/usr/lib/x86_64-linux-gnu/gtkmm-2.4/include" />
+            <Add directory="/usr/lib/x86_64-linux-gnu/pangomm-1.4/include" />
+            <Add directory="/usr/lib/x86_64-linux-gnu/sigc++-2.0/include" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/michele/BTMultiThread-unix/qiBT/build-sys-linux-x86_64/Makefile&quot;  VERBOSE=1 mylib/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/michele/BTMultiThread-unix/qiBT/build-sys-linux-x86_64/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/michele/BTMultiThread-unix/qiBT/build-sys-linux-x86_64/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/michele/BTMultiThread-unix/qiBT/build-sys-linux-x86_64/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/michele/BTMultiThread-unix/qiBT/build-sys-linux-x86_64" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/michele/BTMultiThread-unix/qiBT/build-sys-linux-x86_64/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/michele/BTMultiThread-unix/qiBT/build-sys-linux-x86_64/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/michele/BTMultiThread-unix/qiBT/build-sys-linux-x86_64/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/michele/BTMultiThread-unix/qiBT/build-sys-linux-x86_64/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/michele/BTMultiThread-unix/src/BThread.cpp">
+      </Unit>
+      <Unit filename="/home/michele/BTMultiThread-unix/src/Globals.cpp">
+      </Unit>
+      <Unit filename="/home/michele/BTMultiThread-unix/src/LeafNodes/ActionCome.cpp">
+      </Unit>
+      <Unit filename="/home/michele/BTMultiThread-unix/src/LeafNodes/ActionCrouch.cpp">
+      </Unit>
+      <Unit filename="/home/michele/BTMultiThread-unix/src/LeafNodes/ActionMoveTo.cpp">
+      </Unit>
+      <Unit filename="/home/michele/BTMultiThread-unix/src/LeafNodes/ActionSayWhatYouWant.cpp">
+      </Unit>
+      <Unit filename="/home/michele/BTMultiThread-unix/src/LeafNodes/ActionSetActivity.cpp">
+      </Unit>
+      <Unit filename="/home/michele/BTMultiThread-unix/src/LeafNodes/ActionSleep.cpp">
+      </Unit>
+      <Unit filename="/home/michele/BTMultiThread-unix/src/LeafNodes/ActionStandUp.cpp">
+      </Unit>
+      <Unit filename="/home/michele/BTMultiThread-unix/src/LeafNodes/ActionTest.cpp">
+      </Unit>
+      <Unit filename="/home/michele/BTMultiThread-unix/src/LeafNodes/ActionTest2.cpp">
+      </Unit>
+      <Unit filename="/home/michele/BTMultiThread-unix/src/LeafNodes/ConditionBumperPressed.cpp">
+      </Unit>
+      <Unit filename="/home/michele/BTMultiThread-unix/src/LeafNodes/ConditionIsActivityCome.cpp">
+      </Unit>
+      <Unit filename="/home/michele/BTMultiThread-unix/src/LeafNodes/ConditionIsActivityCrouch.cpp">
+      </Unit>
+      <Unit filename="/home/michele/BTMultiThread-unix/src/LeafNodes/ConditionIsActivityMove.cpp">
+      </Unit>
+      <Unit filename="/home/michele/BTMultiThread-unix/src/LeafNodes/ConditionIsActivitySleep.cpp">
+      </Unit>
+      <Unit filename="/home/michele/BTMultiThread-unix/src/LeafNodes/ConditionIsActivityStand.cpp">
+      </Unit>
+      <Unit filename="/home/michele/BTMultiThread-unix/src/LeafNodes/ConditionKnowsActivty.cpp">
+      </Unit>
+      <Unit filename="/home/michele/BTMultiThread-unix/src/ParallelNode.cpp">
+      </Unit>
+      <Unit filename="/home/michele/BTMultiThread-unix/src/SelectorNode.cpp">
+      </Unit>
+      <Unit filename="/home/michele/BTMultiThread-unix/src/SequenceNode.cpp">
+      </Unit>
+      <Unit filename="/home/michele/BTMultiThread-unix/src/main.cpp">
+      </Unit>
+      <Unit filename="/home/michele/BTMultiThread-unix/include/ActionCome.h">
+      </Unit>
+      <Unit filename="/home/michele/BTMultiThread-unix/include/ActionCrouch.h">
+      </Unit>
+      <Unit filename="/home/michele/BTMultiThread-unix/include/ActionMoveTo.h">
+      </Unit>
+      <Unit filename="/home/michele/BTMultiThread-unix/include/ActionSayWhatYouWant.h">
+      </Unit>
+      <Unit filename="/home/michele/BTMultiThread-unix/include/ActionSetActivity.h">
+      </Unit>
+      <Unit filename="/home/michele/BTMultiThread-unix/include/ActionSleep.h">
+      </Unit>
+      <Unit filename="/home/michele/BTMultiThread-unix/include/ActionStandUp.h">
+      </Unit>
+      <Unit filename="/home/michele/BTMultiThread-unix/include/ActionTest.h">
+      </Unit>
+      <Unit filename="/home/michele/BTMultiThread-unix/include/ActionTest2.h">
+      </Unit>
+      <Unit filename="/home/michele/BTMultiThread-unix/include/BThread.h">
+      </Unit>
+      <Unit filename="/home/michele/BTMultiThread-unix/include/BehaviorTree.h">
+      </Unit>
+      <Unit filename="/home/michele/BTMultiThread-unix/include/ConditionBumperPressed.h">
+      </Unit>
+      <Unit filename="/home/michele/BTMultiThread-unix/include/ConditionIsActivityCome.h">
+      </Unit>
+      <Unit filename="/home/michele/BTMultiThread-unix/include/ConditionIsActivityCrouch.h">
+      </Unit>
+      <Unit filename="/home/michele/BTMultiThread-unix/include/ConditionIsActivityMove.h">
+      </Unit>
+      <Unit filename="/home/michele/BTMultiThread-unix/include/ConditionIsActivitySleep.h">
+      </Unit>
+      <Unit filename="/home/michele/BTMultiThread-unix/include/ConditionIsActivityStand.h">
+      </Unit>
+      <Unit filename="/home/michele/BTMultiThread-unix/include/ConditionKnowsActivity.h">
+      </Unit>
+      <Unit filename="/home/michele/BTMultiThread-unix/include/Globals.h">
+      </Unit>
+      <Unit filename="/home/michele/BTMultiThread-unix/include/ParallelNode.h">
+      </Unit>
+      <Unit filename="/home/michele/BTMultiThread-unix/include/SelectorNode.h">
+      </Unit>
+      <Unit filename="/home/michele/BTMultiThread-unix/include/SequenceNode.h">
+      </Unit>
+      <Unit filename="/home/michele/webots/transfer/e-puck/libepuck/include/webots/robot.h">
+      </Unit>
+      <Unit filename="/usr/include">
+      </Unit>
+      <Unit filename="/usr/include/atk-1.0">
+      </Unit>
+      <Unit filename="/usr/include/atkmm-1.6">
+      </Unit>
+      <Unit filename="/usr/include/cairo">
+      </Unit>
+      <Unit filename="/usr/include/cairomm-1.0">
+      </Unit>
+      <Unit filename="/usr/include/freetype2">
+      </Unit>
+      <Unit filename="/usr/include/gdk-pixbuf-2.0">
+      </Unit>
+      <Unit filename="/usr/include/gdkmm-2.4">
+      </Unit>
+      <Unit filename="/usr/include/giomm-2.4">
+      </Unit>
+      <Unit filename="/usr/include/glib-2.0">
+      </Unit>
+      <Unit filename="/usr/include/glibmm-2.4">
+      </Unit>
+      <Unit filename="/usr/include/gtk-2.0">
+      </Unit>
+      <Unit filename="/usr/include/gtk-unix-print-2.0">
+      </Unit>
+      <Unit filename="/usr/include/gtkmm-2.4">
+      </Unit>
+      <Unit filename="/usr/include/libpng12">
+      </Unit>
+      <Unit filename="/usr/include/pango-1.0">
+      </Unit>
+      <Unit filename="/usr/include/pangomm-1.4">
+      </Unit>
+      <Unit filename="/usr/include/pixman-1">
+      </Unit>
+      <Unit filename="/usr/include/sigc++-2.0">
+      </Unit>
+      <Unit filename="/usr/lib/x86_64-linux-gnu/cairomm-1.0/include">
+      </Unit>
+      <Unit filename="/usr/lib/x86_64-linux-gnu/gdkmm-2.4/include">
+      </Unit>
+      <Unit filename="/usr/lib/x86_64-linux-gnu/giomm-2.4/include">
+      </Unit>
+      <Unit filename="/usr/lib/x86_64-linux-gnu/glib-2.0/include">
+      </Unit>
+      <Unit filename="/usr/lib/x86_64-linux-gnu/glibmm-2.4/include">
+      </Unit>
+      <Unit filename="/usr/lib/x86_64-linux-gnu/gtk-2.0/include">
+      </Unit>
+      <Unit filename="/usr/lib/x86_64-linux-gnu/gtkmm-2.4/include">
+      </Unit>
+      <Unit filename="/usr/lib/x86_64-linux-gnu/pangomm-1.4/include">
+      </Unit>
+      <Unit filename="/usr/lib/x86_64-linux-gnu/sigc++-2.0/include">
+      </Unit>
+      <Unit filename="/home/michele/BTMultiThread-unix/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/michele/BTMultiThread-unix/../naoqi/naoqi-sdk-1.14.5-linux64/share/cmake/qibuild/qibuild-config.cmake">
+          <Option virtualFolder="CMake Files\..\naoqi\naoqi-sdk-1.14.5-linux64\share\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/michele/BTMultiThread-unix/../naoqi/naoqi-sdk-1.14.5-linux64/share/cmake/qibuild/general.cmake">
+          <Option virtualFolder="CMake Files\..\naoqi\naoqi-sdk-1.14.5-linux64\share\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/michele/BTMultiThread-unix/../naoqi/naoqi-sdk-1.14.5-linux64/share/cmake/qibuild/log.cmake">
+          <Option virtualFolder="CMake Files\..\naoqi\naoqi-sdk-1.14.5-linux64\share\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/michele/BTMultiThread-unix/../naoqi/naoqi-sdk-1.14.5-linux64/share/cmake/qibuild/set.cmake">
+          <Option virtualFolder="CMake Files\..\naoqi\naoqi-sdk-1.14.5-linux64\share\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/michele/BTMultiThread-unix/../naoqi/naoqi-sdk-1.14.5-linux64/share/cmake/qibuild/subdirectory.cmake">
+          <Option virtualFolder="CMake Files\..\naoqi\naoqi-sdk-1.14.5-linux64\share\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/michele/BTMultiThread-unix/../naoqi/naoqi-sdk-1.14.5-linux64/share/cmake/qibuild/find.cmake">
+          <Option virtualFolder="CMake Files\..\naoqi\naoqi-sdk-1.14.5-linux64\share\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/michele/BTMultiThread-unix/../naoqi/naoqi-sdk-1.14.5-linux64/share/cmake/qibuild/flags.cmake">
+          <Option virtualFolder="CMake Files\..\naoqi\naoqi-sdk-1.14.5-linux64\share\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/michele/BTMultiThread-unix/../naoqi/naoqi-sdk-1.14.5-linux64/share/cmake/qibuild/tests.cmake">
+          <Option virtualFolder="CMake Files\..\naoqi\naoqi-sdk-1.14.5-linux64\share\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/michele/BTMultiThread-unix/../naoqi/naoqi-sdk-1.14.5-linux64/share/cmake/qibuild/install.cmake">
+          <Option virtualFolder="CMake Files\..\naoqi\naoqi-sdk-1.14.5-linux64\share\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/michele/BTMultiThread-unix/../naoqi/naoqi-sdk-1.14.5-linux64/share/cmake/qibuild/target.cmake">
+          <Option virtualFolder="CMake Files\..\naoqi\naoqi-sdk-1.14.5-linux64\share\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/michele/BTMultiThread-unix/../naoqi/naoqi-sdk-1.14.5-linux64/share/cmake/qibuild/submodule.cmake">
+          <Option virtualFolder="CMake Files\..\naoqi\naoqi-sdk-1.14.5-linux64\share\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/michele/BTMultiThread-unix/../naoqi/naoqi-sdk-1.14.5-linux64/share/cmake/qibuild/stage.cmake">
+          <Option virtualFolder="CMake Files\..\naoqi\naoqi-sdk-1.14.5-linux64\share\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/michele/BTMultiThread-unix/../naoqi/naoqi-sdk-1.14.5-linux64/share/cmake/qibuild/option.cmake">
+          <Option virtualFolder="CMake Files\..\naoqi\naoqi-sdk-1.14.5-linux64\share\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/michele/BTMultiThread-unix/../naoqi/naoqi-sdk-1.14.5-linux64/share/cmake/qibuild/internal/layout.cmake">
+          <Option virtualFolder="CMake Files\..\naoqi\naoqi-sdk-1.14.5-linux64\share\cmake\qibuild\internal\" />
+      </Unit>
+      <Unit filename="/home/michele/BTMultiThread-unix/../naoqi/naoqi-sdk-1.14.5-linux64/share/cmake/qibuild/internal/install.cmake">
+          <Option virtualFolder="CMake Files\..\naoqi\naoqi-sdk-1.14.5-linux64\share\cmake\qibuild\internal\" />
+      </Unit>
+      <Unit filename="/home/michele/BTMultiThread-unix/../naoqi/naoqi-sdk-1.14.5-linux64/share/cmake/qibuild/internal/glob.cmake">
+          <Option virtualFolder="CMake Files\..\naoqi\naoqi-sdk-1.14.5-linux64\share\cmake\qibuild\internal\" />
+      </Unit>
+      <Unit filename="/home/michele/BTMultiThread-unix/../naoqi/naoqi-sdk-1.14.5-linux64/share/cmake/qibuild/internal/autostrap.cmake">
+          <Option virtualFolder="CMake Files\..\naoqi\naoqi-sdk-1.14.5-linux64\share\cmake\qibuild\internal\" />
+      </Unit>
+      <Unit filename="/home/michele/BTMultiThread-unix/../naoqi/naoqi-sdk-1.14.5-linux64/share/cmake/qibuild/internal/stage.cmake">
+          <Option virtualFolder="CMake Files\..\naoqi\naoqi-sdk-1.14.5-linux64\share\cmake\qibuild\internal\" />
+      </Unit>
+      <Unit filename="/home/michele/BTMultiThread-unix/../naoqi/naoqi-sdk-1.14.5-linux64/share/cmake/qibuild/internal/uselib.cmake">
+          <Option virtualFolder="CMake Files\..\naoqi\naoqi-sdk-1.14.5-linux64\share\cmake\qibuild\internal\" />
+      </Unit>
+      <Unit filename="/home/michele/BTMultiThread-unix/../naoqi/naoqi-sdk-1.14.5-linux64/share/cmake/qibuild/internal/list.cmake">
+          <Option virtualFolder="CMake Files\..\naoqi\naoqi-sdk-1.14.5-linux64\share\cmake\qibuild\internal\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>

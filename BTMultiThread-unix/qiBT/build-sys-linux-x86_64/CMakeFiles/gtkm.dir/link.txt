@@ -1,0 +1,2 @@
+/usr/bin/ar cr libgtkm.a  CMakeFiles/gtkm.dir/src/main.cpp.o
+/usr/bin/ranlib libgtkm.a
